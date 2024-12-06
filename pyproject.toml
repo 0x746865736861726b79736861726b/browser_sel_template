@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "browser"
+version = "0.1.0"
+description = ""
+authors = ["To Kirill <tio.kirill@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+undetected-chromedriver = "^3.5.5"
+selenium = "^4.27.1"
+setuptools = "^75.6.0"
+packaging = "^24.2"
+fake-useragent = "^1.5.1"
+seleniumbase = "^4.33.3"
+loguru = "^0.7.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
